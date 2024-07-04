@@ -7,6 +7,7 @@ import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import classes from "./Answer.module.css";
 import QuestionCard from "../QuestionCard/QuestionCard";
+import { defineConfig } from "vite";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
 function Answer() {

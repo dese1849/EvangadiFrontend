@@ -3,7 +3,7 @@ import axios from "../../axiosConfig";
 import classes from "./Home.module.css";
 import { Appstate } from "../../App";
 import React, { useEffect, useState, useContext } from "react";
-import { defineConfig } from "vite";
+// import { defineConfig } from "vite";
 import { FaUserCircle } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 

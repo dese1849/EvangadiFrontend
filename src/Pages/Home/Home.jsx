@@ -3,8 +3,8 @@ import axios from "../../axiosConfig";
 import classes from "./Home.module.css";
 import { Appstate } from "../../App";
 import React, { useEffect, useState, useContext } from "react";
-import { FaUserCircle } from "react-icons/fa";
-import { FaAngleRight } from "react-icons/fa";
+// import { FaUserCircle } from "react-icons/fa";
+// import { FaAngleRight } from "react-icons/fa";
 import { defineConfig } from "vite";
 
 function Home() {
@@ -150,7 +150,7 @@ function Home() {
               <Link to={`/answer/${question.questionid}`} key={index}>
                 <div className={classes.Iconuser}>
                   <div className={classes.LeftDivision}>
-                    <FaUserCircle
+                    <defineConfig
                       size={100}
                       style={{ padding: "0 20px 0 10px", margin: "0" }}
                     />
@@ -158,7 +158,7 @@ function Home() {
                   </div>
                   <div className={classes.MiddleDivision}>{question.title}</div>
                   <div className={classes.RightDivision}>
-                    <FaAngleRight
+                    <defineConfig
                       className={classes.angle}
                       size={40}
                       style={{ paddingTop: "50" }}

@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import classes from "./Answer.module.css";
 import QuestionCard from "../QuestionCard/QuestionCard";
 import { defineConfig } from "vite";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+// import { FaArrowAltCircleRight } from "react-icons/fa";
 
 function Answer() {
   const answerDOM = useRef();
@@ -71,7 +71,7 @@ function Answer() {
           <h1>QUESTION</h1>
           <div>
             <div>
-              <FaArrowAltCircleRight
+              <defineConfig
                 size={30}
                 style={{ padding: "10px 5px 0px", color: "#516CF0" }}
               />

@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+a {
+  text-decoration: none;
+}
+
+.Middle_part {
+  background-image: url("../../assets/edited.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* About */
+.about {
+  width: 50%;
+  padding-left: 35px;
+  padding-bottom: 100px;
+}
+.about h3 {
+  color: orange;
+  font-size: 18px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+.about h1 {
+  color: rgb(75, 69, 111);
+  padding-top: 20px;
+  font-size: 40px;
+  padding-bottom: 25px;
+  font-weight: 500;
+}
+.about p {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 500px;
+  padding-bottom: 20px;
+  color: rgb(33, 37, 41);
+}
+.howbtn {
+  background-color: #fe8402;
+  color: white;
+  padding: 7px 7px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  width: 150px;
+  border-color: #fe8402;
+  border-radius: 3px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Login form */
+/* Login form */
+/* Login form */
+/* Login form */
+.loginForm {
+  margin-top: 20px;
+  margin-left: 90px;
+  background-color: white;
+  border-radius: 10px;
+  width: 33%;
+  height: 480px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+span,
+.loginForm h3 {
+  text-align: center;
+  padding-top: 30px;
+}
+.loginForm h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+span p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(33, 37, 41);
+  padding-bottom: 20px;
+}
+span a {
+  color: #fe8402;
+}
+span p a:hover {
+  text-decoration: underline;
+}
+
+.LoginformOnly div {
+  margin-top: 30px;
+}
+
+.loginbutton {
+  background-color: #036cdb;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80%;
+  border-color: #036cdb;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-left: 35px;
+}
+
+.loginbutton:hover {
+  background-color: #fe8402;
+  border-color: #fe8402;
+}
+
+.LoginformOnly input {
+  width: 91%;
+  height: 37px;
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 2px;
+  border: none;
+}
+
+.LoginformOnly .password {
+  margin-left: 30px;
+}
+.password {
+  border: solid 1px silver;
+  width: 85%;
+  border-radius: 5px;
+}
+.password:focus-within {
+  border-bottom: solid 2px #fe8402;
+}
+.LoginformOnly input:focus {
+  outline: none;
+  /* border-bottom: solid 1px #fe8402; */
+}
+.LoginformOnly input::placeholder {
+  padding-left: 5px;
+}
+.LoginformOnly a {
+  margin-left: 230px;
+  color: rgb(254, 132, 2);
+}
+.LoginformOnly a:hover {
+  text-decoration: underline;
+}
+
+/* Sign Up form */
+.SignForm {
+  margin-top: 20px;
+  margin-left: 90px;
+  background-color: white;
+  border-radius: 10px;
+  width: 33%;
+  height: 480px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding-top: 25px;
+}
+.SignForm h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+.SignForm p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.Join {
+  background-color: #036cdb;
+  color: white;
+  padding: 7px 7px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 85%;
+  border-color: #036cdb;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-left: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.Join:hover {
+  background-color: #fe8402;
+  border-color: #fe8402;
+}
+.account {
+  color: #fe8402;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 90px;
+  padding-top: 20px;
+}
+
+.account:hover {
+  text-decoration: underline;
+}
+
+.agree {
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.agree a {
+  color: #fe8402;
+  text-decoration: underline;
+}
+
+.SignForm input {
+  width: 90%;
+  height: 37px;
+  padding: 5px;
+  font-size: 16px;
+  margin-left: 2px;
+}
+.SignForm div form div {
+  margin-bottom: 15px;
+  border: solid 1px silver;
+  width: 88%;
+  margin-left: 25px;
+  border-radius: 5px;
+}
+.field {
+  display: flex;
+  justify-content: center;
+  width: 88%;
+  gap: 15px;
+  margin-left: 25px;
+}
+
+.field input {
+  border: solid 1px silver;
+  border-radius: 5px;
+}
+.field input:focus {
+  outline: none;
+  border-bottom: solid 2px #fe8402;
+}
+.SignForm form .same input {
+  border: none;
+}
+.SignForm form .same input:focus {
+  outline: none;
+}
+.SignForm form .same:focus-within {
+  border-bottom: solid 2px #fe8402;
+}

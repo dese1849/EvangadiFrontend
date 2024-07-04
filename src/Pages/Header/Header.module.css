@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.Logo img {
+  width: 35%;
+}
+
+.Header_Part {
+  background-color: white;
+  height: 60px;
+  position: fixed;
+  width: 100vw;
+  border-bottom: ridge 3px #fbfbfb;
+  display: flex;
+  gap: 20;
+  padding-top: 20px;
+  z-index: 5;
+}
+.Logo {
+  width: 600px;
+  margin-left: 130px;
+}
+.Menu {
+  margin-left: 90px;
+}
+.button {
+  margin-left: 15px;
+}
+.Menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+  font-weight: 100;
+}
+.Menu ul li {
+  list-style-type: none;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  color: #797171;
+}
+.Menu ul li:hover {
+  color: #fe8402;
+}
+.styled_button {
+  background-color: #036cdb;
+  color: white;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  border-color: #036cdb;
+  border-radius: 3px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.styled_button:hover {
+  background-color: #fe8402;
+  border-color: #fe8402;
+}
+a {
+  text-decoration: none;
+}

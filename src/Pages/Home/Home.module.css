@@ -1,0 +1,114 @@
+body {
+  background-color: #fafafa;
+}
+a {
+  text-decoration: none;
+}
+.home {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.home__container {
+  margin: 0px 30px;
+}
+.home__wellcome {
+  padding: 70px 10px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.home__question {
+  width: 148px;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.home__wellcome a {
+  text-decoration: none;
+  background-color: #0d6efd;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+
+  /* height: 60px; */
+}
+.home__wellcome a:hover {
+  background-color: #0b5ed7;
+}
+
+.home__input {
+  margin-bottom: 20px;
+}
+.home__input input {
+  width: 98%;
+  padding: 10px;
+  border: none;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 10px;
+  height: 25px;
+}
+.home__input input:focus {
+  outline-color: orange;
+  outline-offset: 2px;
+  /* outline-style: solid; */
+}
+
+@media screen and (max-width: 768px) {
+  .home__wellcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+.Iconuser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Comic Sans MS", cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative; /* Add relative positioning */
+}
+
+/* Add horizontal line */
+.Iconuser::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  height: 1px; /* Line height */
+  background-color: #022553; /* Line color */
+}
+.user {
+  margin-left: 40px;
+}
+.Iconuser:hover {
+  transform: translateX(10px);
+  transition: 1s;
+}
+.Iconuser:hover {
+  color: #022553;
+}
+.LeftDivision {
+  flex: 0 1 auto; /* Can shrink but not grow */
+  margin-right: 10px; /* Small space between LeftDivision and Title */
+}
+
+.MiddleDivision {
+  flex: 0 1 70%; /* Takes 70% of the available space */
+}
+
+.RightDivision {
+  flex: 0 1 auto; /* Can shrink but not grow */
+  margin-left: 10px; /* Small space between Title and RightDivision */
+}
+a {
+  color: black;
+}

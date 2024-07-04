@@ -3,6 +3,7 @@ import classes from "./LoginSignup.module.css";
 import axios from "../../axiosConfig";
 import { useRef } from "react";
 import { useNavigate, Link } from "react-router-dom";
+import { defineConfig } from "vite";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { useState, useEffect } from "react";
 function LoginSignup(props) {
